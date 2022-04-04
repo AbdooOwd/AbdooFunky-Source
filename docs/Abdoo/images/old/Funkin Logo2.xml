@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Funkin Logo2.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Logo Boomping 20000" x="0" y="0" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20001" x="716" y="0" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20002" x="1432" y="0" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20003" x="2148" y="0" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20004" x="2864" y="0" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20005" x="0" y="443" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20006" x="716" y="443" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20007" x="1432" y="443" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20008" x="2148" y="443" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20009" x="2864" y="443" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20010" x="0" y="886" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20011" x="716" y="886" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20012" x="1432" y="886" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20013" x="2148" y="886" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20014" x="2864" y="886" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20015" x="0" y="1329" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20016" x="716" y="1329" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20017" x="1432" y="1329" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20018" x="2148" y="1329" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20019" x="2864" y="1329" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20020" x="0" y="1772" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20021" x="716" y="1772" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20022" x="1432" y="1772" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20023" x="2148" y="1772" width="716" height="443"/>
+	<SubTexture name="Logo Boomping 20024" x="2864" y="1772" width="716" height="443"/>
+</TextureAtlas>

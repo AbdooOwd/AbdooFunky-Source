@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				21,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Note Right"
+		},
+		{
+			"offsets": [
+				57,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Note Down"
+		},
+		{
+			"offsets": [
+				32,
+				12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Note Up"
+		},
+		{
+			"offsets": [
+				73,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Note Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "abdoo/abdoo",
+	"position": [
+		100,
+		-30
+	],
+	"healthicon": "abde",
+	"flip_x": true,
+	"healthbar_colors": [
+		51,
+		153,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.8
+}

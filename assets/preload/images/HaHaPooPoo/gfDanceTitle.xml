@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfDanceTitle.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="boop0000" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0001" x="628" y="0" width="646" height="987" frameX="-10" frameY="-48" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0002" x="1274" y="0" width="630" height="1007" frameX="-10" frameY="-28" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0003" x="1274" y="0" width="630" height="1007" frameX="-10" frameY="-28" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0004" x="0" y="1008" width="618" height="1003" frameX="-10" frameY="-16" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0005" x="0" y="1008" width="618" height="1003" frameX="-10" frameY="-16" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0006" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0007" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0008" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0009" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0010" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0011" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0012" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0013" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+	<SubTexture name="boop0014" x="0" y="0" width="628" height="1008" frameX="0" frameY="0" frameWidth="656" frameHeight="1035"/>
+</TextureAtlas>

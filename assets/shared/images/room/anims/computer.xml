@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="computer.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="computer anim0000" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0001" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0002" x="599" y="0" width="599" height="491" frameX="0" frameY="-14" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0003" x="1198" y="0" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0004" x="0" y="505" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0005" x="599" y="505" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0006" x="1198" y="0" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0007" x="0" y="505" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0008" x="1198" y="505" width="599" height="494" frameX="0" frameY="-11" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0009" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0010" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0011" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0012" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0013" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0014" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0015" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0016" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0017" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0018" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0019" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0020" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0021" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0022" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0023" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0024" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0025" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0026" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0027" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0028" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0029" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0030" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0031" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0032" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0033" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0034" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0035" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0036" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0037" x="0" y="999" width="599" height="505"/>
+	<SubTexture name="computer anim0038" x="599" y="999" width="599" height="491" frameX="0" frameY="-14" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0039" x="1198" y="999" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0040" x="0" y="1504" width="599" height="478" frameX="0" frameY="-27" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0041" x="599" y="1504" width="599" height="494" frameX="0" frameY="-11" frameWidth="599" frameHeight="505"/>
+	<SubTexture name="computer anim0042" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0043" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0044" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0045" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0046" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0047" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0048" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0049" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0050" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0051" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0052" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0053" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0054" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0055" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0056" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0057" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0058" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0059" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0060" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0061" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0062" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0063" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0064" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0065" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0066" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0067" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0068" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0069" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0070" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0071" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0072" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0073" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0074" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0075" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0076" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0077" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0078" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0079" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0080" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0081" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0082" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0083" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0084" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0085" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0086" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0087" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0088" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0089" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0090" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0091" x="0" y="0" width="599" height="505"/>
+	<SubTexture name="computer anim0092" x="0" y="0" width="599" height="505"/>
+</TextureAtlas>

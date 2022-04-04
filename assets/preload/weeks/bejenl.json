@@ -1,0 +1,40 @@
+{
+	"storyName": "Abdoo Week 1",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"bejenl",
+			"bf",
+			[
+				26,
+				180,
+				193
+			]
+		],
+		[
+			"payrock",
+			"abde",
+			[
+				0,
+				153,
+				93
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "comp"
+}

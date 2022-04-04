@@ -1,0 +1,10 @@
+
+Check == +
+Uncheck == /
+Doing it == *
+
+Main Manu
+- Know how to make buttons +
+
+Events
+- Add Nonsense Mid-Zoom *

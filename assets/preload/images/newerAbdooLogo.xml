@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="newerAbdooLogo.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logoBumpin0000" x="0" y="0" width="516" height="465" frameX="-41" frameY="-41" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0001" x="516" y="0" width="599" height="547"/>
+	<SubTexture name="logoBumpin0002" x="516" y="0" width="599" height="547"/>
+	<SubTexture name="logoBumpin0003" x="1115" y="0" width="573" height="527" frameX="-13" frameY="-10" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0004" x="1115" y="0" width="573" height="527" frameX="-13" frameY="-10" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0005" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0006" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0007" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0008" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0009" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0010" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0011" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0012" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0013" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+	<SubTexture name="logoBumpin0014" x="0" y="547" width="544" height="503" frameX="-27" frameY="-22" frameWidth="599" frameHeight="547"/>
+</TextureAtlas>

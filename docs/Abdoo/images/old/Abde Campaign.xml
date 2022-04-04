@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Abde Campaign.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Abde Idle Camaign0000" x="0" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0001" x="264" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0002" x="528" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0003" x="792" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0004" x="1056" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0005" x="1320" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0006" x="1584" y="0" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0007" x="0" y="596" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0008" x="264" y="596" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0009" x="528" y="596" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0010" x="792" y="596" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0011" x="1056" y="596" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0012" x="1320" y="596" width="264" height="596"/>
+	<SubTexture name="Abde Idle Camaign0013" x="1584" y="596" width="264" height="596"/>
+</TextureAtlas>

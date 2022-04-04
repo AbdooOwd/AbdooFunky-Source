@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-89,
+				156
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-99,
+				138
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-84,
+				169
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-76,
+				173
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "HEY"
+		},
+		{
+			"offsets": [
+				-90,
+				154
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "this dude",
+			"indices": [],
+			"name": "This Dude"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-88,
+				118
+			],
+			"anim": "dab",
+			"fps": 24,
+			"name": "Dab",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-57,
+				156
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "what",
+			"indices": [],
+			"name": "Whaat"
+		},
+		{
+			"offsets": [
+				-60,
+				144
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				-104,
+				144
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "ibahit/Mike",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mike",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		80,
+		209
+	],
+	"camera_position": [
+		40,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Right Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Left Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				8
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up Note",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "newAbdoo/Abde_Assets",
+	"position": [
+		170,
+		80
+	],
+	"healthicon": "abde",
+	"flip_x": true,
+	"healthbar_colors": [
+		51,
+		153,
+		0
+	],
+	"camera_position": [
+		-30,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}
