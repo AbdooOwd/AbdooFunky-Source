@@ -244,7 +244,7 @@ class MainMenuState extends MusicBeatState
 
 		//Warning
 		if (FlxG.keys.justPressed.X) {
-			lime.app.Application.current.window.alert('NAANANANAN', 'sussy baka window');
+			lime.app.Application.current.window.alert('FlxG.keys.X Just Pressed', 'Lime Console');
 		}
 
 		/*if (FlxG.keys.justPressed.F) {

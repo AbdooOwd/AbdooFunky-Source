@@ -449,24 +449,29 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'room':
-				{
-					var bgroom:BGSprite = new BGSprite('room/room',  0, 0, 1, 1);
-					bgroom.scale.set(1.2, 1.2);
-					bgroom.scrollFactor.set(1, 1);
-					add(bgroom);
-					
-					//The Computer
-					var pc:FlxSprite = new FlxSprite();
-					pc.frames = Paths.getSparrowAtlas('room/anims/computer');
-					pc.antialiasing = ClientPrefs.globalAntialiasing;
-					pc.x = 1500;
-					pc.y = 300;
-					pc.scale.set(1.2, 1.2);
-					pc.scrollFactor.set(1, 1);
-					pc.animation.addByPrefix('boop', 'computer anim', 24, true);
-					pc.animation.play('boop');
-					add(pc);
-				}
+				
+				var bgroom:BGSprite = new BGSprite('room/room',  0, 0, 1, 1);
+				bgroom.scale.set(1.2, 1.2);
+				bgroom.scrollFactor.set(1, 1);
+				add(bgroom);
+				
+				//The Computer
+				var pc:FlxSprite = new FlxSprite();
+				pc.frames = Paths.getSparrowAtlas('room/anims/computer');
+				pc.antialiasing = ClientPrefs.globalAntialiasing;
+				pc.x = 1500;
+				pc.y = 300;
+				pc.scale.set(1.2, 1.2);
+				pc.scrollFactor.set(1, 1);
+				pc.animation.addByPrefix('boop', 'computer anim', 24, true);
+				pc.animation.play('boop');
+				add(pc);
+				
+
+			case 'cloud':
+				var bg:BGSprite = new BGSprite('balas/Cloud', 0, 0, 1, 1);
+				bg.scrollFactor.set(0,0);
+				add(bg);
 		}
 	
 		if (isPixelStage) {

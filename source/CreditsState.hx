@@ -223,6 +223,8 @@ class CreditsState extends MusicBeatState
 						PlayState.SONG = Song.loadFromJson('bejenl', 'bejenl');				
 				case 'Sido':
 						PlayState.SONG = Song.loadFromJson('tutorial-hard', 'tutorial');
+				case 'Souhil':
+					PlayState.SONG = Song.loadFromJson('no-violence', 'no-violence');
 			}//Switch End
 			PlayState.isStoryMode = false;
 			LoadingState.loadAndSwitchState(new PlayState());

@@ -8,71 +8,71 @@
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "Mom Idle",
+			"name": "Idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				250,
-				-23
+				-10,
+				-4
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Mom Left Pose",
+			"name": "Left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				10,
-				-60
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Mom Pose Left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				20,
-				-160
+				-9,
+				-31
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "MOM DOWN POSE",
+			"name": "Down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				14,
-				71
+				-9,
+				22
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "Mom Up Pose",
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				9
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Mom_Assets",
+	"image": "characters/Souhil",
 	"position": [
-		0,
-		0
+		-60,
+		-100
 	],
-	"healthicon": "mom",
-	"flip_x": false,
+	"healthicon": "souhil",
+	"flip_x": true,
 	"healthbar_colors": [
-		216,
-		85,
-		142
+		204,
+		51,
+		0
 	],
 	"camera_position": [
-		0,
-		0
+		180,
+		170
 	],
-	"sing_duration": 4,
-	"scale": 1
+	"sing_duration": 6.1,
+	"scale": 0.6
 }
