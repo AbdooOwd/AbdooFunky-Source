@@ -14,17 +14,6 @@
 		{
 			"loop": false,
 			"offsets": [
-				-10,
-				-4
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
 				-9,
 				-31
 			],
@@ -47,12 +36,23 @@
 		{
 			"loop": false,
 			"offsets": [
-				-4,
+				-2,
 				9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-4
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Right",
+			"name": "Left",
 			"indices": []
 		}
 	],

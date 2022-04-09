@@ -470,7 +470,8 @@ class PlayState extends MusicBeatState
 
 			case 'cloud':
 				var bg:BGSprite = new BGSprite('balas/Cloud', 0, 0, 1, 1);
-				bg.scrollFactor.set(0,0);
+				bg.scale.set(2.2 ,2.2);
+				bg.scrollFactor.set(1, 1);
 				add(bg);
 		}
 	
@@ -2524,9 +2525,8 @@ for (key => value in luaShaders)
 
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {	
-			case 'NH zoom':
-			
-				//defaultCamZoom = value1;
+			case 'Default Zoom':
+				//camGame.zoom = Std.parseFloat(value1);
 				
 			case 'Hey!':
 				var value:Int = 2;
