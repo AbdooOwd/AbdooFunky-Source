@@ -2526,7 +2526,10 @@ for (key => value in luaShaders)
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {	
 			case 'Default Zoom':
-				//camGame.zoom = Std.parseFloat(value1);
+				var value1F = Std.parseFloat(value1);
+				var value2F = Std.parseFloat(value2);
+				camMovement = value2F;
+				defaultCamZoom = value1F;
 				
 			case 'Hey!':
 				var value:Int = 2;

@@ -7,9 +7,12 @@ All notable changes will be documented in this file.
 - New main menu with new options selection
 - some easter eggs in the files
 - BF doing Hey when H pressed
+- Enable Botplay by Pressing B
+- Souhil to Credits
 ### Removed
 - The Abdoo main menu sprite
 - The new "Abdoo Funky Friday" Logo (replaced by the old one)
+- The new "Abdoo Funky Friday" Logo (I made an extra newer one)
 
 ## [0.0.2] - [DEMO] - (also dont remember)
 ### Added
