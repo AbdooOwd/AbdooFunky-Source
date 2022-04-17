@@ -39,9 +39,8 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import openfl.Assets;
 
-import GameJolt.GameJoltAPI; //important
-import GameJolt; //important 
-// thx to JuniorNovoa1
+import GameJolt.GameJoltAPI;
+// thx bright fyre
 
 using StringTools;
 typedef TitleData =
@@ -92,6 +91,9 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+		GameJoltAPI.connect();
+		GameJoltAPI.authDaUser(FlxG.save.data.gjUser, FlxG.save.data.gjToken);
+
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 
@@ -224,7 +226,7 @@ class TitleState extends MusicBeatState
 
 		//gamejolt start shit
 		GameJoltAPI.connect();
-        GameJoltAPI.authDaUser(FlxG.save.data.gjUser, FlxG.save.data.gjToken);
+		GameJoltAPI.authDaUser(FlxG.save.data.gjUser, FlxG.save.data.gjToken);
 	}
 
 	public var logoBl:FlxSprite;

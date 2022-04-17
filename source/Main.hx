@@ -12,7 +12,6 @@ import openfl.events.Event;
 import openfl.display.StageScaleMode;
 
 import GameJolt;
-import GameJolt.GJToastManager;
 
 class Main extends Sprite
 {
@@ -26,6 +25,7 @@ class Main extends Sprite
 	public static var fpsVar:FPS;
 
 	public static var gjToastManager:GJToastManager;
+
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
@@ -60,6 +60,9 @@ class Main extends Sprite
 
 	private function setupGame():Void
 	{
+		gjToastManager = new GJToastManager();
+		addChild(gjToastManager);
+
 		var stageWidth:Int = Lib.current.stage.stageWidth;
 		var stageHeight:Int = Lib.current.stage.stageHeight;
 
@@ -96,9 +99,5 @@ class Main extends Sprite
 		FlxG.autoPause = false;
 		FlxG.mouse.visible = false;
 		#end
-
-		// GJ
-		gjToastManager = new ToastGJ();
-		addChild(gjToastManager);
 	}
 }

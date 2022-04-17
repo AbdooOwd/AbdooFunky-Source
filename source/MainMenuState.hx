@@ -21,7 +21,7 @@ import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 
-import gj.GameJolt.GameJoltAPI;
+import GameJolt.GameJoltAPI;
 
 using StringTools;
 
