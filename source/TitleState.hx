@@ -39,8 +39,8 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import openfl.Assets;
 
-import gj.GameJolt.GameJoltAPI; //important
-import gj.GameJolt; //important 
+import GameJolt.GameJoltAPI; //important
+import GameJolt; //important 
 // thx to JuniorNovoa1
 
 using StringTools;
