@@ -19,3 +19,6 @@ example_mods/*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Stuff
+source/GJKeys.hx

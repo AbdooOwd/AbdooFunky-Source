@@ -39,6 +39,10 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import openfl.Assets;
 
+import gj.GameJolt.GameJoltAPI; //important
+import gj.GameJolt; //important 
+// thx to JuniorNovoa1
+
 using StringTools;
 typedef TitleData =
 {
@@ -217,6 +221,10 @@ class TitleState extends MusicBeatState
 			});
 		}
 		#end
+
+		//gamejolt start shit
+		GameJoltAPI.connect();
+        GameJoltAPI.authDaUser(FlxG.save.data.gjUser, FlxG.save.data.gjToken);
 	}
 
 	public var logoBl:FlxSprite;

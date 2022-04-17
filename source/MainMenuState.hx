@@ -21,6 +21,8 @@ import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 
+import gj.GameJolt.GameJoltAPI;
+
 using StringTools;
 
 class MainMenuState extends MusicBeatState
@@ -233,6 +235,10 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		// GJ
+		if(FlxG.keys.justPressed.G)
+			{FlxG.switchState(new GameJoltLogin());}
+
 		//Sounds Key Press
 		if (FlxG.keys.justPressed.C) {
 			FlxG.sound.pause();
