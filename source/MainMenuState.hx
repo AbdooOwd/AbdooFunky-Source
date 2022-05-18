@@ -22,6 +22,7 @@ import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 
 import GameJolt.GameJoltAPI;
+import GameJolt.GameJoltLogin;
 
 using StringTools;
 
@@ -56,11 +57,6 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
-		
-		//LoGO Center
-		
-		
-
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -235,10 +231,6 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		// GJ
-		if(FlxG.keys.justPressed.G)
-			{FlxG.switchState(new GameJoltLogin());}
-
 		//Sounds Key Press
 		if (FlxG.keys.justPressed.C) {
 			FlxG.sound.pause();

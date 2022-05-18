@@ -73,6 +73,9 @@ import openfl.Lib;
 import flixel.FlxG;
 import openfl.display.Sprite;
 
+import options.OptionsState;
+import flixel.addons.transition.FlxTransitionableState;
+
 using StringTools;
 
 class GameJoltAPI // Connects to tentools.api.FlxGameJolt
@@ -86,7 +89,7 @@ class GameJoltAPI // Connects to tentools.api.FlxGameJolt
     /**
      * Inline variable to see if the user wants to submit scores.
      */
-    public static var leaderboardToggle:Bool;
+    public static var leaderboardToggle:Bool = false;
     /**
      * Grabs user data and returns as a string, true for Username, false for Token
      * @param username Bool value
@@ -157,7 +160,7 @@ class GameJoltAPI // Connects to tentools.api.FlxGameJolt
                             GameJoltLogin.login=true;
                             FlxG.switchState(new GameJoltLogin());
                         }
-                        Main.gjToastManager.createToast(GameJoltInfo.imagePath, "Not signed in!\nSign in to save GameJolt Trophies and Leaderboard Scores!", "", false);
+                        //Main.gjToastManager.createToast(GameJoltInfo.imagePath, "Not signed in!\nSign in to save GameJolt Trophies and Leaderboard Scores!", "", false);
                         trace("User login failure!");
                         // FlxG.switchState(new GameJoltLogin());
                     }
@@ -234,7 +237,7 @@ class GameJoltAPI // Connects to tentools.api.FlxGameJolt
      * @param tableID ID of the table you want to add the score to!
      * @param extraData (Optional) You could put accuracy or any other details here!
      */
-    public static function addScore(score:Int, tableID:Int, ?extraData:String)
+    /*public static function addScore(score:Int, tableID:Int, ?extraData:String)
     {
         if (GameJoltAPI.leaderboardToggle)
         {
@@ -249,7 +252,7 @@ class GameJoltAPI // Connects to tentools.api.FlxGameJolt
         {
             Main.gjToastManager.createToast(GameJoltInfo.imagePath, "Score not submitted!", "Score: " + score + "Extra Data: " +extraData+"\nScore was not submitted due to score submitting being disabled!", true);
         }
-    }
+    }*/
 
     /**
      * Return the highest score from a table!
@@ -307,7 +310,7 @@ class GameJoltInfo extends FlxSubState
     /**
      * Variable to change which state to go to by hitting ESCAPE or the CONTINUE buttons.
      */
-    public static var changeState:FlxUIState = new MainMenuState();
+    public static var changeState:FlxUIState = new OptionsState();
     /**
     * Inline variable to change the font for the GameJolt API elements.
     * @param font You can change the font by doing **Paths.font([Name of your font file])** or by listing your file path.
@@ -377,6 +380,7 @@ class GameJoltLogin extends MusicBeatSubstate
     // var trophyText:FlxText;
     // var missTrophyText:FlxText;
     public static var charBop:FlxSprite;
+    private static var gjLogo:FlxSprite;
     // var icon:FlxSprite;
     var baseX:Int = -190;
     var versionText:FlxText;
@@ -394,6 +398,7 @@ class GameJoltLogin extends MusicBeatSubstate
             {
                 FlxG.sound.playMusic(Paths.music('freakyMenu'),0);
                 FlxG.sound.music.fadeIn(2, 0, 0.85);
+                GameJoltAPI.getTrophy(161150);
             }
 
         trace(GJApi.initialized);
@@ -410,14 +415,18 @@ class GameJoltLogin extends MusicBeatSubstate
 		bg.alpha = 0.25;
 		add(bg);
 
-        charBop = new FlxSprite(FlxG.width - 400, 250);
-		charBop.frames = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared', false);
+        /*charBop = new FlxSprite(FlxG.width - 400, 250);
+		charBop.frames = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
 		charBop.animation.addByPrefix('idle', 'BF idle dance', 24, false);
         charBop.animation.addByPrefix('loggedin', 'BF HEY', 24, false);
         charBop.setGraphicSize(Std.int(charBop.width * 1.4));
 		charBop.antialiasing = true;
         charBop.flipX = false;
-		add(charBop);
+		add(charBop);*/
+        gjLogo = new FlxSprite(FlxG.width - 800, 250);
+        gjLogo.scale.set(0.5,0.5);
+        gjLogo.loadGraphic(Paths.image('login/GJ', 'shared'));
+        add(gjLogo);
 
         gamejoltText1 = new FlxText(0, 25, 0, "GameJolt + FNF Integration", 16);
         gamejoltText1.screenCenter(X);
@@ -434,7 +443,8 @@ class GameJoltLogin extends MusicBeatSubstate
         funnyText = new FlxText(5, FlxG.height - 40, 0, GameJoltInfo.textArray[FlxG.random.int(0, GameJoltInfo.textArray.length - 1)]+ " -Tenta", 12);
         add(funnyText);
 
-        versionText = new FlxText(5, FlxG.height - 22, 0, "Game ID: " + GJKeys.id + " API: " + GameJoltInfo.version, 12);
+        //versionText = new FlxText(5, FlxG.height - 22, 0, "Game ID: " + GJKeys.id + " API: " + GameJoltInfo.version, 12);
+        versionText = new FlxText(5, FlxG.height - 22, 0, "GameJolt Integration By TentaRJ", 12);
         add(versionText);
 
         loginTexts = new FlxTypedGroup<FlxText>(2);
@@ -485,7 +495,7 @@ class GameJoltLogin extends MusicBeatSubstate
         helpBox = new FlxButton(0, 550, "GameJolt Token", function()
         {
             if (!GameJoltAPI.getStatus())openLink('https://www.youtube.com/watch?v=T5-x7kAGGnE');
-            else
+        else
                 {
                     GameJoltAPI.leaderboardToggle = !GameJoltAPI.leaderboardToggle;
                     trace(GameJoltAPI.leaderboardToggle);
@@ -573,7 +583,7 @@ class GameJoltLogin extends MusicBeatSubstate
             FlxG.save.flush();
         }
 
-        if (GameJoltAPI.getStatus())
+       if (GameJoltAPI.getStatus())
         {
             helpBox.text = "Leaderboards:\n" + (GameJoltAPI.leaderboardToggle ? "Enabled" : "Disabled");
             helpBox.color = (GameJoltAPI.leaderboardToggle ? FlxColor.GREEN : FlxColor.RED);
@@ -591,7 +601,7 @@ class GameJoltLogin extends MusicBeatSubstate
         {
             FlxG.save.flush();
             FlxG.mouse.visible = false;
-            FlxG.switchState(GameJoltInfo.changeState);
+            MusicBeatState.switchState(GameJoltInfo.changeState);
         }
 
         super.update(elapsed);
@@ -600,7 +610,7 @@ class GameJoltLogin extends MusicBeatSubstate
     override function beatHit()
     {
         super.beatHit();
-        charBop.animation.play((GameJoltAPI.getStatus() ? "loggedin" : "idle"));
+        gjLogo.animation.play((GameJoltAPI.getStatus() ? "loggedin" : "idle"));
     }
     function openLink(url:String)
     {

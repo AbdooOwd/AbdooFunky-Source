@@ -22,3 +22,4 @@ example_mods/*
 
 # Stuff
 source/GJKeys.hx
+export/release/*.zip

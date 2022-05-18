@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BG.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG Title0000" x="0" y="0" width="2064" height="720" frameX="0" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0001" x="2064" y="0" width="1925" height="720" frameX="-139" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0002" x="3989" y="0" width="1720" height="720" frameX="-344" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0003" x="5709" y="0" width="1449" height="720" frameX="-615" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0004" x="0" y="720" width="1280" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0005" x="1280" y="720" width="1280" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0006" x="2560" y="720" width="1488" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0007" x="4048" y="720" width="1674" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0008" x="5722" y="720" width="1796" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0009" x="0" y="1440" width="1865" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0010" x="1865" y="1440" width="1901" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0011" x="3766" y="1440" width="1917" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0012" x="5683" y="1440" width="1921" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0013" x="0" y="2160" width="1918" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0014" x="1918" y="2160" width="1914" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0015" x="3832" y="2160" width="1913" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0016" x="5683" y="1440" width="1921" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0017" x="5745" y="2160" width="1941" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0018" x="0" y="2880" width="1984" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+	<SubTexture name="BG Title0019" x="1984" y="2880" width="2065" height="720" frameX="-784" frameY="0" frameWidth="2849" frameHeight="720"/>
+</TextureAtlas>
