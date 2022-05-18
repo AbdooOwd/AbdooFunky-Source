@@ -4,26 +4,17 @@
 		{
 			"type": "lime",
 			"command": "test",
-			"targetConfiguration": "HTML5",
+			"targetConfiguration": "windows",
 			"problemMatcher": [
 				"$haxe-absolute",
 				"$haxe",
 				"$haxe-error",
 				"$haxe-trace"
 			],
-			"label": "lime test html5",
+			"label": "lime test windows",
 			"group": {
-				"isDefault": false
-			}
-		},
-		{
-			"type": "lime",
-			"command": "build",
-			"group":{
-				"kind": "build",
 				"isDefault": true
 			}
-
 		}
 	]
 }

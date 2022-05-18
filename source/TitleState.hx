@@ -237,7 +237,6 @@ class TitleState extends MusicBeatState
 	}
 
 	public var logoBl:FlxSprite;
-
 	var bgTitle:FlxSprite;
 	var gfDance:FlxSprite;
 	var danceLeft:Bool = false;
@@ -295,6 +294,20 @@ class TitleState extends MusicBeatState
 		// bg.setGraphicSize(Std.int(bg.width * 0.6));
 		// bg.updateHitbox();
 		add(bg);
+		
+		// Cool BG
+		bgTitle = new FlxSprite(0, 0);
+		bgTitle.frames = Paths.getSparrowAtlas('BG');
+		bgTitle.antialiasing =  ClientPrefs.globalAntialiasing;
+		bgTitle.animation.addByPrefix('swip', 'BG Title', 24, true);
+		bgTitle.screenCenter(XY);
+		bgTitle.animation.play('swip');
+		add(bgTitle);
+		var bgBars:FlxSprite = new FlxSprite(0, 0, Paths.image('bars'));
+		bgBars.antialiasing = ClientPrefs.globalAntialiasing;
+		bgBars.screenCenter(XY);
+		add(bgBars);
+
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		logoBl.frames = Paths.getSparrowAtlas('newerAbdooLogo');
@@ -307,6 +320,7 @@ class TitleState extends MusicBeatState
 		logoBl.y = 10;
 		logoBl.scale.set(1, 1);
 		// logoBl.color = FlxColor.BLACK;
+
 
 		swagShader = new ColorSwap();
 		gfDance = new FlxSprite(titleJSON.gfx, titleJSON.gfy);

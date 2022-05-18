@@ -178,7 +178,7 @@ class MainMenuState extends MusicBeatState
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
 		logoBl.screenCenter(X);
-		logoBl.y = 65;
+		logoBl.y = 90;
 		logoBl.scale.set(0.7,0.7);
 
 		add(logoBl);
