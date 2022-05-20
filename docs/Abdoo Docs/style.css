@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/skin-funkin-cardbordtoast.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+marquee {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+#cool {
+    font-size: 60px;
+}

@@ -154,21 +154,6 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		/*//add it here (the lookin Sprite)
-		lookin = new FlxSprite();
-		lookin.frames = Paths.getSparrowAtlas('look');
-		
-		lookin.antialiasing = ClientPrefs.globalAntialiasing;
-		lookin.animation.addByPrefix('look', 'look', 24, true);
-		lookin.animation.play('look');
-
-		lookin.x = 700;
-		lookin.y = 200;
-		lookin.scrollFactor.set();
-
-		add(lookin);
-		lookin.visible = false;*/
-
 		//LOGO BROOOO
 		logoBl = new FlxSprite(0,0);
 		logoBl.frames = Paths.getSparrowAtlas('newerAbdooLogo');
@@ -178,7 +163,7 @@ class MainMenuState extends MusicBeatState
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
 		logoBl.screenCenter(X);
-		logoBl.y = 90;
+		logoBl.y = 120;
 		logoBl.scale.set(0.7,0.7);
 
 		add(logoBl);

@@ -213,22 +213,22 @@ class CreditsState extends MusicBeatState
 		if(FlxG.keys.justPressed.G){
 			FlxG.sound.play(Paths.sound('confirmMenu'), 0.4);
 			switch (creditSong)
-			//This switch is for each credit choosed a song is choosed
+			//This switch is for each credited guy choosed, a song is choosed for him
 			{//Switch cases here \/ \/
 				case 'Abdoo':
 					//if(FlxG.keys.justPressed.G){
-						PlayState.SONG = Song.loadFromJson('payrock', 'payrock');
+					PlayState.SONG = Song.loadFromJson('payrock', 'payrock');
 					//}
 				case 'Ibra':
-						PlayState.SONG = Song.loadFromJson('bejenl', 'bejenl');				
+					PlayState.SONG = Song.loadFromJson('bejenl', 'bejenl');				
 				case 'Sido':
-						PlayState.SONG = Song.loadFromJson('tutorial-hard', 'tutorial');
+					PlayState.SONG = Song.loadFromJson('tutorial-hard', 'tutorial');
 				case 'Souhil':
-					PlayState.SONG = Song.loadFromJson('no-violence', 'no-violence');
+					// He stoled 'No bully' and told me it was him who made it (Renaming it 'No violence'), i didn't knew the song...
 			}//Switch End
 			PlayState.isStoryMode = false;
 			LoadingState.loadAndSwitchState(new PlayState());
-		}
+		}//Condition end
 
 		
 		super.update(elapsed);

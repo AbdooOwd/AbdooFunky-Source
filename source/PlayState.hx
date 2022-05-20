@@ -2526,17 +2526,9 @@ for (key => value in luaShaders)
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {	
 			case 'Default Zoom':
-				if(ClientPrefs.camZooms)
-					{
-						isCameraOnForcedPos = false;
-
-						var camZoom:Float = Std.parseFloat(value1);
-						if(Math.isNaN(camZoom)) camZoom = 0.015;
-
-						camGame.zoom = camZoom;
-					}
-				
-				
+				var camZoom:Float = Std.parseFloat(value1);
+				var camMove:Float = Std.parseFloat(value2);
+				FlxTween.tween(FlxG.camera, {zoom: camZoom}, camMove, {ease: FlxEase.smootherStepInOut});
 			case 'Hey!':
 				var value:Int = 2;
 				switch(value1.toLowerCase().trim()) {

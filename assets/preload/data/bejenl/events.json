@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 1.6,
+		"stage": "room",
+		"player1": "bf",
+		"player2": "Abdoo",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Default Zoom",
+						"1.5",
+						"5"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 120,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "bejenl"
+	}
+}
