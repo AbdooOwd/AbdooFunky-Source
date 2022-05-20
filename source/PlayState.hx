@@ -97,6 +97,15 @@ class PlayState extends MusicBeatState
 	public var camHUDShaders:Array<ShaderEffect> = [];
 	public var camOtherShaders:Array<ShaderEffect> = [];
 	//event variables
+	/**
+	 * This is a cool variable.
+	 *
+	 * ```haxe
+	 * isCameraOnForcedPos:Bool = false;
+	 * ```
+	 *
+	 * @param	Cool		Cool things that are too cool for you.
+	 */
 	private var isCameraOnForcedPos:Bool = false;
 	#if (haxe >= "4.0.0")
 	public var boyfriendMap:Map<String, Boyfriend> = new Map();
@@ -1490,10 +1499,10 @@ class PlayState extends MusicBeatState
 						if (PlayState.isPixelStage)
 							countdownReady.setGraphicSize(Std.int(countdownReady.width * daPixelZoom));
 
-						countdownReady.screenCenter();
-						countdownReady.antialiasing = antialias;
-						add(countdownReady);
-						FlxTween.tween(countdownReady, {/*y: countdownReady.y + 100,*/ alpha: 0}, Conductor.crochet / 1000, {
+							countdownReady.screenCenter();
+							countdownReady.antialiasing = antialias;
+							add(countdownReady);
+							FlxTween.tween(countdownReady, {/*y: countdownReady.y + 100,*/ alpha: 0}, Conductor.crochet / 1000, {
 							ease: FlxEase.cubeInOut,
 							onComplete: function(twn:FlxTween)
 							{
@@ -2525,10 +2534,14 @@ for (key => value in luaShaders)
 
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {	
-			case 'Default Zoom':
+			case 'Default Cam Zoom':
 				var camZoom:Float = Std.parseFloat(value1);
 				var camMove:Float = Std.parseFloat(value2);
+				isCameraOnForcedPos = false;
+
 				FlxTween.tween(FlxG.camera, {zoom: camZoom}, camMove, {ease: FlxEase.smootherStepInOut});
+				//thx Cherry, or Cherie on Discord
+
 			case 'Hey!':
 				var value:Int = 2;
 				switch(value1.toLowerCase().trim()) {
@@ -2573,7 +2586,7 @@ for (key => value in luaShaders)
 				if(Math.isNaN(lightId)) lightId = 0;
 
 				if(lightId > 0 && curLightEvent != lightId) {
-					if(lightId > 5) lightId = FlxG.random.int(1, 5, [curLightEvent]);
+					if(lightId > 7) lightId = FlxG.random.int(1, 6, [curLightEvent]);
 
 					var color:Int = 0xffffffff;
 					switch(lightId) {
@@ -2587,6 +2600,11 @@ for (key => value in luaShaders)
 							color = 0xfff96d63;
 						case 5: //Orange
 							color = 0xfffba633;
+						case 6: //Black
+							color = 0xff5c5c5c;
+						case 7: //White
+							color = 0xffffffff;
+							//Just a black bg with og chars colors
 					}
 					curLightEvent = lightId;
 
@@ -2914,7 +2932,7 @@ for (key => value in luaShaders)
 			camFollow.x -= boyfriend.cameraPosition[0];
 			camFollow.y += boyfriend.cameraPosition[1];
 
-			if (Paths.formatToSongPath(SONG.song) == 'tutorial' && cameraTwn == null && FlxG.camera.zoom != 1)
+			if (Paths.formatToSongPath(SONG.song) == 'tutorial' && cameraTwn == null && FlxG.camera.zoom != 1)// tween camera weeee
 			{
 				cameraTwn = FlxTween.tween(FlxG.camera, {zoom: 1}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut, onComplete:
 					function (twn:FlxTween)

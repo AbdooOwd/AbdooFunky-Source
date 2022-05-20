@@ -32,6 +32,7 @@ import openfl.Assets;
 import openfl.display.Bitmap;
 import openfl.display.BitmapData;
 import options.GraphicsSettingsSubState;
+import editors.ChartingState;
 
 using StringTools;
 
@@ -484,6 +485,17 @@ class TitleState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		
+		// Debug things without debug mode wtf
+		if(FlxG.keys.justPressed.T){
+			
+			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+			PlayState.SONG = Song.loadFromJson('tutorial-hard', 'tutorial');
+			PlayState.isStoryMode = false;
+			LoadingState.loadAndSwitchState(new PlayState());
+			//lime.app.Application.current.window.alert('T pressed for debug\nwithout debug\n\nWHO DID THIS ?!!', 'Lime Console');
+		}
+
 		if (FlxG.sound.music != null)
 			Conductor.songPosition = FlxG.sound.music.time;
 		// FlxG.watch.addQuick('amp', FlxG.sound.music.amplitude);
