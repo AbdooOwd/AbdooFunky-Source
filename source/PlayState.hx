@@ -59,6 +59,8 @@ import FunkinLua;
 import DialogueBoxPsych;
 import Shaders;
 import DynamicShaderHandler;
+// C O O L
+import why.MyPlace.MyDialog;
 
 //Shit
 import sys.io.File;

@@ -113,7 +113,7 @@
 	<!--My Files Editing / START-->
 
 	<assets path='art/Abdoo/newLogo.jpg' rename='assets/shared/images/logoIRL.jpg' />
-	<assets path='source/ibahitLeak.txt' rename='assets/ibahitLeak/ibahitLeak.txt'/>
+	<assets path='source/why/ibahitLeak.txt' rename='assets/ibahitLeak/ibahitLeak.txt'/>
 
 	<!--Changelog Files-->
 	<assets path="art/Abdoo/AbdooChangelog.md" rename='Changelogs/AbdooChangelog.txt'/>

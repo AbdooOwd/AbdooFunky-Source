@@ -777,6 +777,8 @@ class TitleState extends MusicBeatState
 
 	function skipIntro():Void
 	{
+		//Lez pley
+		MyDialog.say('Abdoo', 'hey');
 		if (!skippedIntro)
 		{
 			remove(wackyImage);

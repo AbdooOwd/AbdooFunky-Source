@@ -11,23 +11,19 @@ class MyDialog extends MusicBeatState {
     var guyDialog:Array<String>;
 
     /**
-	 * This things does things.
-	 *
-	 * @param	Thing		that is a thing.
-	 */
-    var fullDialog:Array<String>;
+     * Cool Variable
+     * 
+     * Too Cool
+     */
+    public static var fullDialog:Array<String>;
 
-    private static function say(who:String, says:String)
+    public static function say(who:String, says:String)
         {
             //Ha ha, thats funny, idk what but its funny.
-            var dialog:Array = [who + ': ', says];
-            //trace(dialog);
-            fullDialog = dialog;
-            doFirst();
+            //var dialog:Array<String> = [who + ': ', says];
+            var text:String = who + ': ' + says;
+            trace(text);
         }
-    public static doFirst(){
-        trace(fullDialog);
-    }
 }
 
 //This is a joke file. We can say... Maybe...
