@@ -425,7 +425,7 @@ class GameJoltLogin extends MusicBeatSubstate
 		add(charBop);*/
         gjLogo = new FlxSprite(FlxG.width - 800, 250);
         gjLogo.scale.set(0.5,0.5);
-        gjLogo.loadGraphic(Paths.image('login/GJ', 'shared'));
+        gjLogo.loadGraphic(Paths.image('other/login/GJ', 'shared'));
         add(gjLogo);
 
         gamejoltText1 = new FlxText(0, 25, 0, "GameJolt + FNF Integration", 16);

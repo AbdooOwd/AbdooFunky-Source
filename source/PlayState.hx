@@ -480,7 +480,7 @@ class PlayState extends MusicBeatState
 				
 
 			case 'cloud':
-				var bg:BGSprite = new BGSprite('balas/Cloud', 0, 0, 1, 1);
+				var bg:BGSprite = new BGSprite('other/balas/Cloud', 0, 0, 1, 1);
 				bg.scale.set(2.2 ,2.2);
 				bg.scrollFactor.set(1, 1);
 				add(bg);

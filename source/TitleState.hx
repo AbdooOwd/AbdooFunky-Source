@@ -33,6 +33,7 @@ import openfl.display.Bitmap;
 import openfl.display.BitmapData;
 import options.GraphicsSettingsSubState;
 import editors.ChartingState;
+import why.MyPlace.MyDialog;
 
 using StringTools;
 
